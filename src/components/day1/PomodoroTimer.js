@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import "../assets/day1/styles/index.css";
-import SettingsIcon from "../assets/day1/icons/gear.svg";
-import CheckIcon from "../assets/day1/icons/check.svg";
+import "../../assets/day1/styles/index.css";
+import SettingsIcon from "../../assets/day1/icons/gear.svg";
+import CheckIcon from "../../assets/day1/icons/check.svg";
 
 //
-import EndAudio from "../assets/day1/audios/audio-1.mp3";
+import EndAudio from "../../assets/day1/audios/audio-1.mp3";
 // import { useNavigate } from "react-router-dom";
 const PomodoroTimer = () => {
   const [totalCount, setTotalCount] = useState(0);

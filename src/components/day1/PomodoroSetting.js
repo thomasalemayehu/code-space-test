@@ -1,6 +1,6 @@
 import React from "react";
-import "../assets/day1/styles/settings.css";
-import BackButton from "../assets/day1/icons/back.svg";
+import "../../assets/day1/styles/settings.css";
+import BackButton from "../../assets/day1/icons/back.svg";
 import { useNavigate } from "react-router-dom";
 const PomodoroSetting = () => {
   const navigate = useNavigate();
