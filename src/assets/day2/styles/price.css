@@ -1,0 +1,24 @@
+.price-display-container{
+    margin-left: auto;
+    width: 70%;
+    font-family: "Poppins";
+    text-align: end;
+    margin-right: 5%;
+}
+.price-display-container label{
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.25px;
+}
+.price-display-container p {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 12px;
+    gap: 10px;
+}
