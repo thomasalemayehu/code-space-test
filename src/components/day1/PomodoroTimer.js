@@ -104,7 +104,7 @@ const PomodoroTimer = () => {
   // const navigate = useNavigate();
 
   return (
-    <section className="container">
+    <section className="pomodoro-container">
       {/* <div className="settings_page" onClick={()=>{
         navigate("/pomodoro-timer/settings");
       }}>

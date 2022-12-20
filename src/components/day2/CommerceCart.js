@@ -15,7 +15,7 @@ const CommerceCart = () => {
   const cartItems = useSelector((state) => state.foodCart.cart);
 
   return (
-    <div className="container">
+    <div className="commerce-cart-container">
       <img src={LeftImage} className="bg-image left-image" alt="" />
       <img src={TopRightImage} className="bg-image top-right-image" alt="" />
       <img

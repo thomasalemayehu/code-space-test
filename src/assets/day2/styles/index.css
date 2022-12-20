@@ -1,9 +1,11 @@
 @import url("./fonts.css");
 
-.container {
+.commerce-cart-container {
   width: 100vw;
   height: 100vh;
-  background-color: #eff0f6 !important;
+  background-color: #eff0f6;
+  display: grid;
+  place-items: center;
 }
 .bg-image {
   position: absolute;

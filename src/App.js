@@ -10,6 +10,7 @@ import PomodoroTimer from "./components/day1/PomodoroTimer";
 import PomodoroSetting from "./components/day1/PomodoroSetting";
 import { Provider } from "react-redux";
 import { appStore } from "./app/index";
+import Piano from "./components/day3/Piano";
 function App() {
   return (
     <Provider store={appStore}>
@@ -30,6 +31,11 @@ function App() {
             <Route path="cart">
               <Route index element={<CommerceCart />} />
             </Route>
+          </Route>
+
+          {/* Piano */}
+          <Route path='piano'>
+            <Route index element={<Piano />} />
           </Route>
         </Routes>
       </Router>

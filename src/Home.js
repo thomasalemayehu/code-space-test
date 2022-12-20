@@ -6,6 +6,7 @@ const Home = () => {
     <div style={{ display:"flex", flexDirection:"column" }}>
       <Link to='/pomodoro-timer'>Pomodoro Timer </Link>
       <Link to='/cart'>Restaurant Cart</Link>
+      <Link to='/piano'>Piano</Link>
     </div>
   );
 };
