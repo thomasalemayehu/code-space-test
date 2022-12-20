@@ -1,0 +1,35 @@
+.piano-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #37b2c3;
+  display: grid;
+  place-items: center;
+}
+.piano-keys-wrapper {
+  width: fit-content;
+  height: fit-content;
+}
+
+.white-keys,
+.black-keys {
+  transition: 0.15s ease-in;
+  -webkit-transition: 0.15s ease-in;
+  -moz-transition: 0.15s ease-in;
+  -ms-transition: 0.15s ease-in;
+  -o-transition: 0.15s ease-in;
+}
+
+.white-keys {
+  fill: white;
+}
+.black-keys {
+  fill: black;
+}
+
+.white-keys:hover {
+  fill: #ffd200;
+}
+
+.black-keys:hover {
+  fill: #f40082;
+}
