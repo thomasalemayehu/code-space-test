@@ -7,6 +7,7 @@ const Home = () => {
       <Link to='/pomodoro-timer'>Pomodoro Timer </Link>
       <Link to='/cart'>Restaurant Cart</Link>
       <Link to='/piano'>Piano</Link>
+      <Link to='/keyboard'>Keyboard</Link>
     </div>
   );
 };

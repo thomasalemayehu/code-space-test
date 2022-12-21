@@ -1,0 +1,213 @@
+@import url("../styles//fonts.css");
+
+.keyboard-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+}
+.keyboard-container > h1 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: #60c1b6;
+  letter-spacing: 0.25px;
+}
+.keyboard-frame {
+  width: calc(70% + 48px);
+  height: 420px;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 48px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.keyboard-key {
+  width: fit-content;
+  display: grid;
+  place-items: center;
+  background-color: white;
+  height: 60px;
+  box-shadow: 0px 1.86186px 14.8949px rgba(0, 0, 0, 0.05);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 54px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.keyboard-key:hover {
+  background: #ffd200;
+  color: black;
+  transition: 0.25s ease-in;
+  -webkit-transition: 0.25s ease-in;
+  -moz-transition: 0.25s ease-in;
+  -ms-transition: 0.25s ease-in;
+  -o-transition: 0.25s ease-in;
+}
+.colored-text {
+  color: #60c1b6;
+}
+
+.bland-text {
+  color: #868888;
+}
+.regular {
+  width: 60px;
+}
+
+.medium {
+  width: 85px;
+}
+.large {
+  width: 110px;
+}
+
+.larger {
+  width: 147px;
+}
+
+.extra-large {
+  width: 500px;
+  margin: auto;
+}
+
+.active {
+  background-color: #60c1b6;
+  color: white;
+  animation-name: jiggle;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes jiggle {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@keyframes incorrect {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+    background-color: #da2c43;
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+    -moz-transform: translate(1px, 1px) rotate(0deg);
+    -ms-transform: translate(1px, 1px) rotate(0deg);
+    -o-transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-3px, 0px) rotate(1deg);
+    background-color: #da2c43;
+    color: black;
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+    -moz-transform: translate(-3px, 0px) rotate(1deg);
+    -ms-transform: translate(-3px, 0px) rotate(1deg);
+    -o-transform: translate(-3px, 0px) rotate(1deg);
+  }
+  20% {
+    transform: translate(3px, 2px) rotate(0deg);
+    background-color: #da2c43;
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+    -moz-transform: translate(3px, 2px) rotate(0deg);
+    -ms-transform: translate(3px, 2px) rotate(0deg);
+    -o-transform: translate(3px, 2px) rotate(0deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+    background-color: #da2c43;
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+    -moz-transform: translate(3px, 2px) rotate(0deg);
+    -ms-transform: translate(3px, 2px) rotate(0deg);
+    -o-transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+    background-color: #da2c43;
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+    background-color: #da2c43;
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+    background-color: #da2c43;
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+    background-color: #da2c43;
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+    background-color: #da2c43;
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+    background-color: white;
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+    background-color: white;
+
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    -ms-transform: translate(0px, 0px) rotate(0deg);
+    -o-transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+.incorrect {
+  animation-name: incorrect;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
