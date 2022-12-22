@@ -1,0 +1,73 @@
+@import url("./fonts.css");
+
+.podcast-checkbox-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f3f3f3;
+  display: grid;
+  place-items: center;
+  user-select: none;
+}
+
+.podcast-checkbox-wrapper {
+  /* height: 80vh; */
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.podcast-checkbox-cover-image {
+  width: 33vw;
+  aspect-ratio: 1/1;
+  filter: drop-shadow(0px 5.40459px 32.4276px #453f3f);
+}
+
+.podcast-checkbox-content-wrapper {
+  height: 60vh;
+  width: 37vw;
+  background: #ffffff;
+  box-shadow: 0px 5.40459px 27.023px #e8eaef;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 24px 16px;
+}
+
+.podcast-checkbox-content-wrapper > h1 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  color: #a7a7a7;
+  text-align: center;
+}
+.podcast-checkbox-list-view {
+  margin-top: 24px;
+  height: 45vh;
+  margin-left: 48px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  /* align-items: center; */
+}
+.podcast-checkbox-podcast-item-wrapper {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.podcast-checkbox-podcast-item-wrapper > p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.25px;
+  line-height: 44px;
+  color: #4e4e4e;
+}
+
+.podcast-checkbox-image{
+    width: 30px;
+    aspect-ratio: 1/1;
+}

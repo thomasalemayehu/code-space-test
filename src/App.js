@@ -12,6 +12,7 @@ import { Provider } from "react-redux";
 import { appStore } from "./app/index";
 import Piano from "./components/day3/Piano";
 import Keyboard from "./components/day4/Keyboard";
+import PodcastCheckbox from "./components/day5/PodcastCheckbox";
 function App() {
   return (
     <Provider store={appStore}>
@@ -42,6 +43,11 @@ function App() {
           {/* Keyboard */}
           <Route path="keyboard">
             <Route index element={<Keyboard />}/>
+          </Route>
+
+          {/* Podcast Checkbox */}
+          <Route path="podcast-checkbox">
+            <Route index element={<PodcastCheckbox />} />
           </Route>
         </Routes>
       </Router>

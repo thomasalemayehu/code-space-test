@@ -8,6 +8,7 @@ const Home = () => {
       <Link to='/cart'>Restaurant Cart</Link>
       <Link to='/piano'>Piano</Link>
       <Link to='/keyboard'>Keyboard</Link>
+      <Link to='/podcast-checkbox'>Podcast Checkbox</Link>
     </div>
   );
 };
