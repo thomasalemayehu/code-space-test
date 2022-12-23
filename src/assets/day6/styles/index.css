@@ -1,0 +1,100 @@
+@import url("./font.css");
+
+.price-slider-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #262529;
+    display: grid;
+    place-items: center;
+    font-family: "Source Sans Pro";
+}
+
+.price-slider-wrapper {
+  padding: 4% 3%;
+  width: 720px;
+  background: #262529;
+  box-shadow: 0px 0px 250px #000000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.price-slider-price-info {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 118px;
+  color: #ffc700;
+}
+
+.price-slider-slider-container{
+    width: 100%;
+    height: fit-content;
+}
+
+.price-slider-slider-container > input[type=range] {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 10px;
+  height: 14px;
+  background: #4D4C53;
+  outline: none;
+  margin: 70px 0;
+  width: 100%;
+}
+.price-slider-slider-container > input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 50px;
+  background: #EA346F;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: 15px solid rgba(234, 52, 111, .2);
+}
+
+.price-slider-slider-container > input[type=range]::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none; 
+  width: 40px;
+  height: 40px;
+  background: #EA346F;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: 15px solid rgba(234, 52, 111, .2);
+}
+
+
+.price-slider-slider-container > input[type=range]::-moz-range-progress {
+  background: #EA346F;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 14px;
+}
+
+.price-slider-buy-button {
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 20px 48px;
+  background: #333139;
+  border-radius: 100px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.15s;
+  -webkit-transition: 0.15s;
+  -moz-transition: 0.15s;
+  -ms-transition: 0.15s;
+  -o-transition: 0.15s;
+}
+
+.price-slider-buy-button:hover {
+  background: white;
+  color: black;
+}

@@ -13,6 +13,7 @@ import { appStore } from "./app/index";
 import Piano from "./components/day3/Piano";
 import Keyboard from "./components/day4/Keyboard";
 import PodcastCheckbox from "./components/day5/PodcastCheckbox";
+import PriceSlider from "./components/day6/PriceSlider";
 function App() {
   return (
     <Provider store={appStore}>
@@ -36,18 +37,23 @@ function App() {
           </Route>
 
           {/* Piano */}
-          <Route path='piano'>
+          <Route path="piano">
             <Route index element={<Piano />} />
           </Route>
 
           {/* Keyboard */}
           <Route path="keyboard">
-            <Route index element={<Keyboard />}/>
+            <Route index element={<Keyboard />} />
           </Route>
 
           {/* Podcast Checkbox */}
           <Route path="podcast-checkbox">
             <Route index element={<PodcastCheckbox />} />
+          </Route>
+
+          {/* Price Slider */}
+          <Route path="price-slider">
+            <Route index element={<PriceSlider />} />
           </Route>
         </Routes>
       </Router>

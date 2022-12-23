@@ -9,6 +9,7 @@ const Home = () => {
       <Link to='/piano'>Piano</Link>
       <Link to='/keyboard'>Keyboard</Link>
       <Link to='/podcast-checkbox'>Podcast Checkbox</Link>
+      <Link to='/price-slider'>Price Slider</Link>
     </div>
   );
 };
