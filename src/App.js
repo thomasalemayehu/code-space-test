@@ -14,6 +14,7 @@ import Piano from "./components/day3/Piano";
 import Keyboard from "./components/day4/Keyboard";
 import PodcastCheckbox from "./components/day5/PodcastCheckbox";
 import PriceSlider from "./components/day6/PriceSlider";
+import TipCalculator from "./components/day7/TipCalculator";
 function App() {
   return (
     <Provider store={appStore}>
@@ -54,6 +55,11 @@ function App() {
           {/* Price Slider */}
           <Route path="price-slider">
             <Route index element={<PriceSlider />} />
+          </Route>
+
+          {/* Tip Calculator */}
+          <Route path="tip-calculator">
+            <Route index element={<TipCalculator />} />
           </Route>
         </Routes>
       </Router>

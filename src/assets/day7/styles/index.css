@@ -1,0 +1,191 @@
+@import url("./font.css");
+.tip-calculator-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6f6f3;
+  display: grid;
+  place-items: center;
+  font-family: "Inter";
+}
+.tip-calculator-wrapper {
+  height: 95vh;
+  width: 650px;
+  background: #ffffff;
+  box-shadow: 0px 0px 47.1547px rgba(148, 146, 120, 0.23);
+  border-radius: 21.434px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2% 0px 0px 0px;
+  /* justify-content: end; */
+}
+
+.tip-calculator-inner-wrapper {
+  height: 80%;
+  width: 100%;
+}
+
+.tip-calculator-input-container {
+  width: 100%;
+  height: 41%;
+  background: #f7f7f7;
+  display: flex;
+  border-radius: 21.434px;
+  -webkit-border-radius: 21.434px;
+  -moz-border-radius: 21.434px;
+  -ms-border-radius: 21.434px;
+  -o-border-radius: 21.434px;
+}
+
+.tip-calculator-bill-input {
+  width: 60%;
+  height: 100%;
+  border-right: 1.0717px solid #dedede;
+}
+
+.tip-calculator-input-wrapper {
+  padding: 32px 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3.2151px dashed red;
+}
+
+.tip-calculator-input-wrapper > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.tip-calculator-input-wrapper > p {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.0038px;
+  line-height: 20px;
+  text-align: right;
+  color: #333333;
+}
+.tip-calculator-people-input {
+  width: 40%;
+  height: 100%;
+}
+.tip-calculator-input-wrapper input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 45px;
+  width: 150px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  color: #333333;
+}
+
+.tip-calculator-bill-input input {
+  width: 240px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.tip-calculator-tip-selection-container {
+  height: 15%;
+  width: 100%;
+  background: #eeeeee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tip-calculator-tip-selection {
+  cursor: pointer;
+  width: 110px;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: 0px 1.0717px 8.57359px rgba(0, 0, 0, 0.05);
+  display: grid;
+  place-items: center;
+  font-family: "Roboto Mono";
+  color: #60c1b6;
+  font-size: 21px;
+  font-weight: 700;
+  border: 1.0717px solid #dedede;
+  transition: 0.25s all;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  -webkit-transition: 0.25s all;
+  -moz-transition: 0.25s all;
+  -ms-transition: 0.25s all;
+  -o-transition: 0.25s all;
+}
+
+.tip-calculator-tip-selection-selected {
+  background-color: #60c1b6;
+  color: white;
+}
+
+.tip-calculator-bottom-display {
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* height: 15%; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9795fe7;
+  border-bottom-left-radius:  21.434px;
+  border-bottom-right-radius: 21.434px;
+  color: white;
+}
+
+.tip-calculator-bottom-display > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.tip-calculator-bottom-display > p > span {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: right;
+}
+
+.tip-calculator-button {
+  margin-top: 24px;
+  margin-right: 32px;
+  outline: none;
+  border: none;
+  padding: 14px 72px;
+  font-family: "Roboto Mono";
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  background: #ed7861;
+  box-shadow: 0px 1.0717px 8.57359px rgba(0, 0, 0, 0.05);
+  border-radius: 17.1472px;
+}

@@ -10,6 +10,7 @@ const Home = () => {
       <Link to='/keyboard'>Keyboard</Link>
       <Link to='/podcast-checkbox'>Podcast Checkbox</Link>
       <Link to='/price-slider'>Price Slider</Link>
+      <Link to='/tip-calculator'>Tip Calculator</Link>
     </div>
   );
 };

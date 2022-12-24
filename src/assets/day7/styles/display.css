@@ -1,0 +1,36 @@
+@import url("./font.css");
+
+.tip-calculator-display-container {
+  width: 100%;
+  height: 28%;
+  margin-top: 12px;
+  display: grid;
+  place-items: center;
+ 
+}
+
+.tip-calculator-display-container:nth-of-type(1){
+     border-bottom: 1.0717px solid #DEDEDE;
+}
+
+.tip-calculator-display-container > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: right;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.tip-calculator-display-container > p > span {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: right;
+  color: #333333;
+}
