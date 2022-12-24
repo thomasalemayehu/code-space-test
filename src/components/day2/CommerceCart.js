@@ -25,14 +25,14 @@ const CommerceCart = () => {
       />
 
       <div className="menus-container">
-        <div className="menu larger">
+        <div className="menu larger-menu">
           <h1>to go menu</h1>
 
           {items.map((item, index) => (
             <MenuItem key={item.id} {...item} colorClass={menuItemColors[index]} />
           ))}
         </div>
-        <div className="menu smaller">
+        <div className="menu smaller-menu">
           <h1>your cart</h1>
           {cartItems.length > 0 ? (
             [
