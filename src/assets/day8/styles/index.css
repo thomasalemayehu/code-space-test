@@ -1,0 +1,12 @@
+@import url("./font.css");
+
+.weather-app-container{
+    width: 100vw;
+    height: 100vh;
+    background: #E9F5FA;
+    padding: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}

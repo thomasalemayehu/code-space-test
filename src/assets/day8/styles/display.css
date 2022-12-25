@@ -1,0 +1,191 @@
+@import url("./font.css");
+
+.weather-app-display-container {
+  width: 140px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  align-items: center;
+}
+
+.weather-app-display-day-of-week {
+  font-size: 24px;
+  letter-spacing: 0.2em;
+}
+
+.weather-app-display-day {
+  font-size: 58px;
+}
+
+.weather-app-display-day-of-week,
+.weather-app-display-day {
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  color: #4db0d3;
+  text-align: center;
+}
+
+.weather-app-display-show {
+  margin-top: 22px;
+  height: 480px;
+  width: 100%;
+  box-shadow: 0px 5.26953px 5.26953px rgba(0, 0, 0, 0.25),
+    14.4912px 5.26953px 44.791px rgba(32, 77, 92, 0.7);
+  text-align: center;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
+
+.weather-app-cloudy {
+  background: #4db0d3;
+  color: #e6df95;
+}
+
+.weather-app-sunny {
+  background: #e6df95;
+  color: #4db0d3;
+}
+
+.weather-app-stormy {
+  background: #0e2e3a;
+  color: #e6df95;
+}
+.weather-app-part-cloudy {
+  background-color: #4db0d3;
+  color: #e6df95;
+}
+.weather-app-rainy {
+  background-color: #2b8bad;
+  color: #e6df95;
+}
+
+.weather-app-icon-display {
+  max-height: 120px;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+
+.weather-app-weather-icon {
+  height: 140px;
+  aspect-ratio: 1/1;
+  box-shadow: none;
+}
+
+.weather-app-cloud-icon {
+  width: 180px;
+}
+.weather-app-snowy-icon{
+    width: 300px;
+}
+.weather-app-stormy-icon{
+    width: 160px;
+}
+.weather-app-part-cloud-icon {
+  width: 180px;
+}
+.weather-app-rainy-icon {
+  width: 240px;
+}
+.weather-app-weather-info-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather-app-weather-info-main {
+  margin-top: 12px;
+  font-family: "Oswald";
+  height: fit-content;
+  letter-spacing: 0.2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  padding-top: 0px;
+  position: relative;
+}
+.weather-app-weather-info-main > sup {
+  position: absolute;
+  margin-left: 16px;
+  font-size: 36px;
+  transform: translate(32px, -32px);
+  -webkit-transform: translate(32px, -32px);
+  -moz-transform: translate(32px, -32px);
+  -ms-transform: translate(32px, -32px);
+  -o-transform: translate(32px, -32px);
+}
+
+.weather-app-weather-info-sub {
+  margin-top: 32px;
+}
+
+.weather-app-weather-info-sub > div {
+  margin-top: 8px;
+  padding-bottom: 2%;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.weather-app-weather-info-sub-icon {
+  height: 28px;
+  width: 28px;
+}
+
+.weather-app-cloud-text{
+    color: white !important; 
+}
+.weather-app-cloud-text svg path, 
+.weather-app-cloud-text svg circle{
+    fill: white !important;
+}
+
+.weather-app-sunny-text{
+    color: #247490;
+}
+.weather-app-sunny-text svg path,
+.weather-app-sunny-text svg circle{
+    fill: #247490;
+}
+
+.weather-app-stormy-text{
+    color: white;
+}
+.weather-app-stormy-text svg path,
+.weather-app-stormy-text svg circle{
+    fill: white;
+}
+
+.weather-app-snowy-text {
+    color: #247490;
+}
+.weather-app-snowy-text svg path ,
+.weather-app-snowy-text svg circle{
+    fill: #247490;
+}
+
+.weather-app-part-cloudy-text,
+.weather-app-rainy-text{
+    color: white;
+}
+
+.weather-app-part-cloudy-text svg path,
+.weather-app-part-cloudy-text svg circle,
+.weather-app-rainy-text svg path,
+.weather-app-rainy-text svg circle{
+    fill: white;
+}
+.weather-app-weather-info-sub > div > p {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}

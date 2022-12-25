@@ -11,6 +11,7 @@ const Home = () => {
       <Link to='/podcast-checkbox'>Podcast Checkbox</Link>
       <Link to='/price-slider'>Price Slider</Link>
       <Link to='/tip-calculator'>Tip Calculator</Link>
+      <Link to='/weather'>Weather App</Link>
     </div>
   );
 };
